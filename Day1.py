@@ -8,7 +8,6 @@ current = 0
 index = 0
 
 
-'''
 ## PART 1
 for line in lines:
     if index == 0: 
@@ -29,7 +28,7 @@ for line in lines:
 
 print(increaseCount)
 
-'''
+
 
 ## PART 2
 
