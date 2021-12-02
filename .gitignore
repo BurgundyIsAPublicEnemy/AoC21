@@ -1,1 +1,4 @@
 puzzleinputs/
+
+*.s
+*.o
