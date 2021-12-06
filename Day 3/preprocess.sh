@@ -1,0 +1,1 @@
+sed 's/./& /g' "Day3.txt" > "output.txt"
