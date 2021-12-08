@@ -1,7 +1,7 @@
 import itertools
 
 # SHOUT OUT TO https://github.com/julian-west/adventofcode/blob/master/2021/day_08/d8_solution.py for the help!
-# Attempt 1: Get lengths (easy enough), felt I was gonna permuate cause it felt small but code became spagetthi and logic was rough
+# Attempt 1: Get lengths (easy enough), felt I was gonna permuate cause it was only 7! / (7 - 7)! = 5040 but code became spagetthi and logic was rough
 # What did I learn? List Comprehension, For Each
 
 f = open("Day8.txt", "r")
