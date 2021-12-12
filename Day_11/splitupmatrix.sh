@@ -1,0 +1,1 @@
+sed 's/./& /g' Day11.txt > output
