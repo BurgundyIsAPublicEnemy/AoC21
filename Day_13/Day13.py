@@ -1,4 +1,4 @@
-import numpy as np 
+import numpy as np
 
 #setup
 with open('Day13A.txt') as f:
@@ -31,7 +31,7 @@ for fold in folds:
         paper = paper.T
         transpose = True
     else: 
-        
+
         for point in points:
             if axis == 'x':
                 paper[int(point[1])][int(point[0])] = int(point[0]) + 1
@@ -65,17 +65,12 @@ for fold in folds:
     
     print(len(np.nonzero(paper > 0)[0]))
 
-    vispaper = np.where(paper > 0, 'X', paper) 
-    vispaper = np.where(paper == 0, '.', vispaper) 
-
     # get new ting 
     points = []
-    for iy, ix in np.ndindex(vispaper.shape):
-        if ((vispaper[iy, ix]) == 'X'):
+    for iy, ix in np.ndindex(paper.shape):
+        if ((paper[iy, ix]) > 0):
             points.append(tuple([ix, iy]))
-
-    print("\n")
-
+            
 vispaper = np.where(paper > 0, 'X', paper) 
 vispaper = np.where(paper == 0, '.', vispaper) 
 print(vispaper)
