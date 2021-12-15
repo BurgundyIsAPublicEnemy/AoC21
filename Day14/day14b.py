@@ -1,4 +1,7 @@
 from collections import defaultdict
+
+#HELP NEEDED!
+
 state = "HHKONSOSONSVOFCSCNBC"
 mappings = {}
 for line in open("Day14.txt", "r").readlines():
